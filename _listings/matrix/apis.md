@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11769-matr
 x-kinRank: "8"
 x-alexaRank: "156652"
 tags: Matrix
-created: "2018-06-20"
-modified: "2018-06-20"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/matrix/master/_listings/matrix/apis.md
 specificationVersion: "0.14"
 apis:
