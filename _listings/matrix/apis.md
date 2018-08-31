@@ -7,46 +7,40 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11769-matr
 x-kinRank: "8"
 x-alexaRank: "156652"
 tags: Matrix
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-30"
+modified: "2018-08-30"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/matrix/master/_listings/matrix/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Matrix Login Operations API Get the login mechanism to use when logging in.
-  x-api-slug: matrix-login-operations-api
+- name: Login Operations - Get the login mechanism to use when logging in.
+  x-api-slug: login-get
   description: All login stages MUST be mentioned if there is >1 login type.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11769-matrix.jpg
   humanURL: http://matrix.org/
-  baseURL: :///login/http://localhost:8008/_matrix/client/api/v1//login
-  tags: Login,Mechanism,To,Use,When,Logging,In
+  baseURL: :///login/http://localhost:8008/_matrix/client/api/v1
+  tags: Real Time, Stack Network, Technology, Enterprise, Telecommunications, API
+    Provider, Profiles, Relative Data, Service API, Networks
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/matrix/master/_listings/matrix/login-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/matrix/master/_listings/matrix/login-get-openapi.md
-- name: Matrix Login Operations API Submit a login action.
-  x-api-slug: matrix-login-operations-api
+- name: Login Operations - Submit a login action.
+  x-api-slug: login-post
   description: If this is part of a multi-stage login, there MUST be a session key.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11769-matrix.jpg
   humanURL: http://matrix.org/
-  baseURL: :///login/http://localhost:8008/_matrix/client/api/v1//login
-  tags: Submit,Login,Action
+  baseURL: :///login/http://localhost:8008/_matrix/client/api/v1
+  tags: Real Time, Stack Network, Technology, Enterprise, Telecommunications, API
+    Provider, Profiles, Relative Data, Service API, Networks
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/matrix/master/_listings/matrix/login-post-openapi.md
-- name: Matrix Login Operations API
-  x-api-slug: matrix-login-operations-api
-  description: Matrix is an open standard for decentralised communication, providing
-    simple HTTP APIs and open source reference implementations for securely distributing
-    and persisting JSON over an open federation of servers.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11769-matrix.jpg
-  humanURL: http://matrix.org/
-  baseURL: :///login/http://localhost:8008/_matrix/client/api/v1
-  tags: Matrix
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/matrix/master/_listings/matrix/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://mastercard.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://matrix.stack.network
 - type: x-blog
   url: http://matrix.org/blog/posts/
 - type: x-blog-rss
